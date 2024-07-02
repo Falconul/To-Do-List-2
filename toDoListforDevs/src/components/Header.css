@@ -1,0 +1,13 @@
+.Header-Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Header-Container ul {
+  display: flex;
+  list-style: none;
+  color: beige;
+  font-size: 24px;
+  gap: 20px;
+}

@@ -1,0 +1,38 @@
+:root {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Permanent Marker", cursive;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-image: url(./assets/img/green-1846861_1280.jpg);
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #7eb5a6;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border: 1px solid beige;
+  color: beige;
+}
